@@ -119,6 +119,17 @@ h1 {
   max-width: 72ch;
 }
 
+.profile p + p {
+  margin-block-start: var(--s0);
+}
+
+.yemale-mark {
+  width: 1.45em;
+  height: 1.45em;
+  margin-inline-start: 0.18em;
+  vertical-align: -0.38em;
+}
+
 .section {
   margin-block-start: clamp(var(--s2), 6.5vw, var(--s3));
   padding-block-start: 1.24rem;
