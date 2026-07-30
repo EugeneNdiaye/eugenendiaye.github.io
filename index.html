@@ -1,256 +1,157 @@
-<!DOCTYPE html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eugene Ndiaye</title>
+  <meta name="description" content="Short CV for Eugene Ndiaye — Research Scientist in Machine Learning and Optimization.">
+  <meta name="theme-color" content="#05070A">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <header class="masthead">
+      <h1>Eugene Ndiaye</h1>
+      <p class="subtitle">Research Scientist in Machine Learning and Optimization</p>
+      <p class="contact">
+        <a href="mailto:ndiayeeugene@gmail.com">ndiayeeugene@gmail.com</a>
+        <span aria-hidden="true">·</span>
+        <a href="https://scholar.google.fr/citations?hl=fr&amp;user=-w-CSo0AAAAJ">Google Scholar</a>
+        <span aria-hidden="true">·</span>
+        <a href="https://github.com/EugeneNdiaye">GitHub</a>
+      </p>
+    </header>
 
-<html>
+    <section class="profile">
+      <p>
+        I am a researcher in machine learning interested in the reliability of modern statistical models.
+        My work develops mathematical and algorithmic tools that make it possible to attach rigorous
+        guarantees to data-driven predictions, even when models and outputs become more complex.
+        This matters in many settings where predictions inform high-stakes decisions, because it is not
+        enough for a model to produce a single answer; we also need to know when that answer is fragile and
+        how far it can be trusted.
+      </p>
+    </section>
 
-    <head>
+    <section class="section" aria-labelledby="appointments-title">
+      <h2 id="appointments-title">Appointments</h2>
 
-        <meta charset="utf-8" />
-	<link rel="stylesheet" href="style.css" />
+      <article class="entry">
+        <p class="date">2023–2026</p>
+        <div class="content">
+          <p><strong>Research Scientist</strong></p>
+          <p>Apple Machine Learning Research</p>
+          <p>Paris, France</p>
+        </div>
+      </article>
 
-        <title>Ndiaye Eugene</title>
-	<!-- Feel free & don't forget to be different ;-D -->
+      <article class="entry">
+        <p class="date">2021–2023</p>
+        <div class="content">
+          <p><strong>Tennenbaum President’s Postdoctoral Fellow</strong></p>
+          <p>Georgia Institute of Technology</p>
+          <p>Atlanta, USA</p>
+        </div>
+      </article>
 
-    </head>
+      <article class="entry">
+        <p class="date">2018–2021</p>
+        <div class="content">
+          <p><strong>Special Postdoctoral Researcher</strong></p>
+          <p>RIKEN Center for Advanced Intelligence Project (AIP)</p>
+          <p>Nagoya, Japan</p>
+        </div>
+      </article>
+    </section>
 
+    <section class="section" aria-labelledby="education-title">
+      <h2 id="education-title">Education</h2>
 
-    <body>
+      <article class="entry">
+        <p class="date">2015–2018</p>
+        <div class="content">
+          <p><strong>Télécom Paris, France</strong></p>
+          <p>Ph.D. in Applied Mathematics</p>
+          <p>École doctorale de mathématiques Hadamard</p>
+          <p>Thesis: <em>Safe optimization algorithms for variable selection and hyperparameter tuning.</em></p>
+          <p class="links">
+            <a href="https://pastel.archives-ouvertes.fr/tel-01962450/document">Manuscript</a>
+            <span aria-hidden="true">·</span>
+            <a href="https://drive.google.com/file/d/1MF2XVUqh7KtFcGoUU97X54iXcz2OUYlO/view?usp=sharing">Slides</a>
+          </p>
+        </div>
+      </article>
 
-	<div id="bloc_page">
+      <article class="entry">
+        <p class="date">2012–2015</p>
+        <div class="content">
+          <p><strong>Université Paris-Saclay, France</strong></p>
+          <p>Magistère in Fundamental Mathematics and Applications</p>
+          <p>M.Sc. in Probability and Statistics, with high honors</p>
+        </div>
+      </article>
+    </section>
 
-		<header id="main_head">
+    <section class="section publications" aria-labelledby="publications-title">
+      <h2 id="publications-title">Selected Publications</h2>
 
-			<div id="banniere" >
+      <div class="pub-group">
+        <h3>Optimization, Sparsity, and Duality</h3>
+        <ul class="pub-list">
+          <li>
+            <a href="https://jmlr.org/papers/v18/16-577.html">Gap Safe Screening Rules for Sparsity Enforcing Penalties.</a>
+            <span>E. Ndiaye, O. Fercoq, A. Gramfort, and J. Salmon. <em>Journal of Machine Learning Research, 2017.</em></span>
+          </li>
+          <li>
+            <a href="https://proceedings.mlr.press/v97/ndiaye19a.html">Safe Grid Search with Optimal Complexity.</a>
+            <span>E. Ndiaye, T. Le, O. Fercoq, J. Salmon, and I. Takeuchi. <em>International Conference on Machine Learning, 2019.</em></span>
+          </li>
+          <li>
+            <a href="https://www.heldermann.de/JCA/JCA28/JCA284/jca28061.htm">Screening Rules and its Complexity for Active Set Identification.</a>
+            <span>E. Ndiaye, O. Fercoq, and J. Salmon. <em>Journal of Convex Analysis, 2021.</em></span>
+          </li>
+        </ul>
+      </div>
 
-				<nav>
-					<ul>
-						<li><a href="https://github.com/EugeneNdiaye">GitHub</a></li>
-						<li><a href="https://scholar.google.fr/citations?user=-w-CSo0AAAAJ&hl=fr">Google scholar</a></li>
-						<li><a href="https://twitter.com/eugene_ndiaye">Twitter</a></li>
-					</ul>
-				</nav>
-			</div>
+      <div class="pub-group">
+        <h3>Uncertainty Quantification and Optimal Transport</h3>
+        <ul class="pub-list">
+          <li>
+            <a href="https://proceedings.neurips.cc/paper/2019/hash/9e3cfc48eccf81a0d57663e129aef3cb-Abstract.html">Computing Full Conformal Prediction Set with Approximate Homotopy.</a>
+            <span>E. Ndiaye and I. Takeuchi. <em>Advances in Neural Information Processing Systems, 2019.</em></span>
+          </li>
+          <li>
+            <a href="https://proceedings.mlr.press/v162/ndiaye22a.html">Stable Conformal Prediction Sets.</a>
+            <span>E. Ndiaye. <em>International Conference on Machine Learning, 2022. <strong class="award">Outstanding Paper Award.</strong></em></span>
+          </li>
+          <li>
+            <a href="https://link.springer.com/article/10.1007/s10994-022-06233-5">Root-Finding Approaches for Computing Conformal Prediction Set.</a>
+            <span>E. Ndiaye and I. Takeuchi. <em>Machine Learning, 2023.</em></span>
+          </li>
+          <li>
+            <a href="https://proceedings.mlr.press/v202/guha23b.html">Conformalization of Sparse Generalized Linear Models.</a>
+            <span>E. K. Guha, E. Ndiaye, and X. Huo. <em>International Conference on Machine Learning, 2023.</em></span>
+          </li>
+          <li>
+            <a href="https://arxiv.org/abs/2511.15146">Beyond Uncertainty Sets: Leveraging Optimal Transport to Extend Conformal Predictive Distribution to Multivariate Settings.</a>
+            <span>E. Ndiaye. <em>arXiv preprint, 2025.</em></span>
+          </li>
+          <li>
+            <a href="https://openreview.net/forum?id=LrXAq63eT7">Multivariate Conformal Prediction using Optimal Transport.</a>
+            <span>M. Klein, L. Béthune, E. Ndiaye, and M. Cuturi. <em>Transactions on Machine Learning Research, 2026.</em></span>
+          </li>
+          <li>
+            <a href="https://openreview.net/forum?id=0sCyk9Tr5J">Trained on Tokens, Calibrated on Concepts: The Emergence of Semantic Calibration in LLMs.</a>
+            <span>P. Nakkiran, A. Bradley, A. Goliński, E. Ndiaye, M. Kirchhof, and S. Williamson. <em>International Conference on Learning Representations, 2026.</em></span>
+          </li>
+        </ul>
+      </div>
 
-		</header>
-
-		<section>
-
-			<article>
-
-				I am currently a researcher in the Machine Learning Group @Apple in Paris. 
-				<!-- <p></p> -->
-
-				Previously, I was a Tennenbaum President’s Postdoctoral Fellow in the <a href="https://www.isye.gatech.edu/"> H. Milton Stewart School of Industrial and Systems Engineering </a> at Georgia Institute of Technology, hosted by <a href="https://sites.gatech.edu/xiaoming-huo/">Xiaoming Huo </a>  and <a href="https://sites.gatech.edu/pascal-van-hentenryck/"> Pascal Van Hentenryck </a>.
-				<!-- <p></p> -->
-			<!-- </article>
-			<article> -->
-				I was also a Postdoctoral Researcher at <a href="http://www.riken.jp/en/research/labs/aip/"> RIKEN Center for Advanced Intelligence Project</a> 
-				in the <a href="http://www.riken.jp/en/research/labs/aip/goalorient_tech/datadrive_biomed/"> Data-Driven Biomedical Science Team</a> headed by <a href="http://www-als.ics.nitech.ac.jp/~takeuchi/index.html"> Ichiro Takeuchi </a>. 
-			<!-- </br> -->
-				<!-- <p></p> -->
-<!--  -->
-				I hold a PhD in Applied Mathematics. My doctoral thesis focused on the design and analysis of faster and safer optimization algorithms for variable selection and hyperparameter calibration in high dimension. I was supervised by <a href="http://perso.telecom-paristech.fr/~ofercoq/">
-				Olivier Fercoq</a> and <a href="http://josephsalmon.eu/">Joseph Salmon</a> at 
-				T&eacutel&eacutecom ParisTech, EDMH, Universit&eacute Paris-Saclay. </br>
-				<p></p>
-<!--  -->
-				 Please find more details in my <a href="https://drive.google.com/file/d/1mwabLjqjiEUA3LLh9x2o62WluWUi_LPi/view?usp=sharing">CV</a>. </br>
-				 <p></p>
-				 <!-- <b>Also, I am in the job market for a Tenure-Track or Research Scientist position ~.~ </b> -->
-				
-
-			</article>
-			<article>
-				<p></p>
-				Email: e_ndiaye@apple.com</br>
-			</article>
-
-			<!--	Supervised by <a href="http://www-als.ics.nitech.ac.jp/~takeuchi/index.html"> Ichiro Takeuchi </a>
-				in the <a href="http://www.riken.jp/en/research/labs/aip/goalorient_tech/datadrive_biomed/">
-				Data-Driven Biomedical Science Team</a>. </br>
-
-				<p></p>
-				I hold a PhD in Applied Mathematics. My thesis was about design and analysis of
-				faster and safer optimization algorithms for variable selection and hyperparameter
-				tuning in high dimension. I was supervised by <a href="http://perso.telecom-paristech.fr/~ofercoq/">
-				Olivier Fercoq</a> and <a href="http://josephsalmon.eu/">Joseph Salmon</a> at 
-				T&eacutel&eacutecom ParisTech, EDMH, Universit&eacute Paris Saclay.
-			
-
-			<article>
-				<h1>Contacts:</h1>
-				Email: eugene.ndiaye (~~.) riken.jp </br>
-				<a href="https://github.com/EugeneNdiaye">GitHub</a> / 
-				<a href="https://scholar.google.fr/citations?user=-w-CSo0AAAAJ&hl=fr">Google scholar</a> /
-				<a href="https://twitter.com/eugene_ndiaye">twitter</a>.
-				<p></p>
-			</article>
-			<aside>
-			    <img src="images/me.jpg" alt="my photo"/>
-			</aside>
-		-->
-
-		</section>
-
-		<section>
-			<div class="paper_style">
-			<article>
-				
-				<h1>Thesis</h1>
-				<ul>
-					<li>
-						<strong>Safe optimization algorithms for variable selection and hyperparameter tuning.</strong></br>
-						E. Ndiaye. </br>
-						<i> Universit&eacute Paris-Saclay, October 4th, 2018</i>. </br>
-						<a href="https://pastel.archives-ouvertes.fr/tel-01962450/document"> Manuscript </a>,
-						<a href="https://drive.google.com/file/d/1MF2XVUqh7KtFcGoUU97X54iXcz2OUYlO/view?usp=sharing"> slides </a>.
-						<p></p>
-					</li>
-				</ul>
-
-				<h1>Publications</h1>
-				
-				<ul>
-
-					<li>
-						<strong>Exact and Approximate Conformal Inference in Multiple Dimensions.</strong></br>
-						C. Johnstone, E. Ndiaye.</br>
-						<i> Arxiv, 2022</i>. </br>
-						<a href="https://arxiv.org/pdf/2210.17405.pdf"> paper </a>,	
-						<a href="https://github.com/EugeneNdiaye/"> code in preparation </a>.					
-						<p></p>
-					</li>
-
-
-					<li>
-						<strong>A Confidence Machine for Sparse High-Order Interaction Model.</strong></br>
-						D. Das, E. Ndiaye, I. Takeuchi.</br>
-						<i> Arxiv, 2022</i>. </br>
-						<a href="https://arxiv.org/pdf/2205.14317.pdf"> paper </a>,	
-						<a href="https://github.com/EugeneNdiaye/"> code in preparation </a>.					
-						<p></p>
-					</li>
-
-
-					<li>
-						<strong>Stable Conformal Prediction Sets.</strong></br>
-						E. Ndiaye.</br>
-						<i> International Conference on Machine Learning, 2022</i>. </br>
-						<a href="https://proceedings.mlr.press/v162/ndiaye22a/ndiaye22a.pdf"> paper </a>,	
-						<a href="https://github.com/EugeneNdiaye/stable_conformal_prediction"> code </a>.					
-						<p></p>
-					</li>
-
-					<li>
-						<strong>Continuation Path with Linear Convergence Rate.</strong></br>
-						E. Ndiaye, I. Takeuchi.</br>
-						<i> Arxiv, 2021</i>. </br>
-						<a href="https://arxiv.org/pdf/2112.05104.pdf"> paper </a>,	
-						<a href="https://github.com/EugeneNdiaye/"> code in preparation </a>.					
-						<p></p>
-					</li>
-
-					<li>
-						<strong>Root-finding Approaches for Computing Conformal Prediction Set.</strong></br>
-						E. Ndiaye, I. Takeuchi.</br>
-						<i> Accepted to <a href="https://www.springer.com/journal/10994"> Machine Learning </a>, 2021</i>. </br>
-						<a href="https://arxiv.org/pdf/2104.06648.pdf"> paper </a>,	
-						<a href="https://github.com/EugeneNdiaye/rootCP"> code </a>.					
-						<p></p>
-					</li>
-
-					<li>
-						<strong>Screening Rules and its Complexity for Active Set Identification.</strong></br>
-						E. Ndiaye, O. Fercoq, J. Salmon.</br>
-						<i> Journal of Convex Analysis, 2020</i>. </br>
-						<a href="https://arxiv.org/pdf/2009.02709.pdf"> paper </a>,
-						<a href="https://github.com/EugeneNdiaye/Gap_Safe_Rules"> code </a>.						
-						<p></p>
-					</li>
-
-					<li>
-						<strong>Computing Full Conformal Prediction Set with Approximate Homotopy.</strong></br>
-						E. Ndiaye, I. Takeuchi.</br>
-						<i> Advances in Neural Information Processing Systems, 2019</i>. </br>
-						<a href="https://arxiv.org/pdf/1909.09365.pdf"> paper </a>,
-						<a href="https://github.com/EugeneNdiaye/homotopy_conformal_prediction"> code </a>.						
-						<p></p>
-					</li>
-
-					<li>
-						<strong>Safe Grid Search with Optimal Complexity.</strong></br>
-						E. Ndiaye, T. Le, O. Fercoq, J. Salmon, I. Takeuchi.</br>
-						<i> International Conference on Machine Learning, 2019</i>. </br>
-						<a href="https://arxiv.org/pdf/1810.05471.pdf"> paper </a>,
-						<a href="https://github.com/EugeneNdiaye/safe_grid_search"> code </a>.						
-						<p></p>
-					</li>
-
-					<li>
-						<strong>Gap Safe screening rules for sparsity enforcing penalties.</strong></br>
-						E. Ndiaye, O. Fercoq, A. Gramfort, J. Salmon.</br>
-						<i>Journal of Machine Learning Research, 2017</i>. </br>
-						<a href="https://arxiv.org/pdf/1611.05780.pdf"> paper </a>, 
-						<a href="https://github.com/EugeneNdiaye/Gap_Safe_Rules"> code </a>.
-						<p></p>
-					</li>
-
-					<li>
-						<strong>Efficient Smoothed Concomitant Lasso Estimation for High Dimensional Regression.</strong></br>
-						E. Ndiaye, O. Fercoq, V. Lecl&egravere, A. Gramfort, J. Salmon.</br>
-						<i>Journal of Physics: Conference Series, 2017</i>. </br>
-						<a href="https://arxiv.org/pdf/1606.02702.pdf"> paper </a>,
-						<a href="https://github.com/EugeneNdiaye/smoothed_concomitant_lasso"> code </a>.
-						<p></p>
-					</li>
-
-					<li>
-						<strong>GAP Safe Screening Rules for Sparse-Group-Lasso.</strong></br>
-						E. Ndiaye, O. Fercoq, A. Gramfort, J. Salmon. </br>
-						<i>Advances in Neural Information Processing Systems, 2016</i>. </br>
-						<a href="https://arxiv.org/pdf/1602.06225.pdf"> paper </a>,
-						<a href="https://github.com/EugeneNdiaye/GAPSAFE_SGL"> code </a>.
-						<p></p>
-					</li>
-
-					<li>
-						<strong>GAP Safe screening rules for sparse multi-task and multi-class models.</strong></br>
-						E. Ndiaye, O. Fercoq, A. Gramfort, J. Salmon. </br>
-						<i> Advances in Neural Information Processing Systems, 2015</i>. </br>
-						<a href="https://arxiv.org/pdf/1506.03736.pdf"> paper </a>.
-						<a href="https://github.com/EugeneNdiaye/Gap_Safe_Rules"> code </a>.
-
-						<p></p>
-					</li>
-				</ul>
-
-				<h1>Teaching</h1>
-				<ul>
-
-					<li>
-						<strong>Instructor for the class ISyE 6740, Computational Data Science.</strong></br> Spring 2022, Graduate level. </br>
-						<p></p>
-					</li>
-
-					<li>
-						<strong>Teaching assistant at Nagoya Institute of Technology.</strong></br> Book reading in machine learning with both graduate and undergraduate students. </br>
-						<p></p>
-					</li>
-
-					<li>
-						<strong>Teaching assistant at T&eacutel&eacutecom ParisTech. </strong></br>
-						Master courses in optimization and machine learning: </br>
-						<i> Linear Models, Clustering, Bootstrap, Ensemble Methods, First Order Optimization and Stochastic Algorithm etc. </i>
-					</li>
-				
-				</ul>
-			</article>
-			</div>
-
-		</section>
-
-	</div>
-
-
-    </body>
-
+      <p class="all-publications">
+        Complete list on
+        <a href="https://scholar.google.fr/citations?hl=fr&amp;user=-w-CSo0AAAAJ">Google Scholar</a>.
+      </p>
+    </section>
+  </main>
+</body>
 </html>
