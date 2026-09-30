@@ -123,6 +123,10 @@ h1 {
   margin-block-start: var(--s0);
 }
 
+.yemale-link {
+  white-space: nowrap;
+}
+
 .yemale-mark {
   width: 1.45em;
   height: 1.45em;
